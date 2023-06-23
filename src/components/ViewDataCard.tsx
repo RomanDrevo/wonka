@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {useCardDataQuery} from "./viewApi";
 
-interface ViewData {
+interface ViewDataCard {
     id: string; //map
     location: {
         type: any

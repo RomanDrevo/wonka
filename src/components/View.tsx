@@ -7,10 +7,10 @@ import {useViewDataQuery} from "./viewApi";
 interface View {
     id: string;
     name: string;
-    viewData: ViewData[];
+    viewData: ViewDataCard[];
 }
 
-interface ViewData {
+interface ViewDataCard {
     id: string; //map
     location: {
         Type: any

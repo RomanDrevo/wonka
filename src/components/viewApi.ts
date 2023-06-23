@@ -25,7 +25,7 @@ export const ViewApi = createQueryApi({
                 };
             },
         }),
-        getCardData: builder.query<CardsResponse, CommonUrlParams>({
+        getCardData: builder.query<CardResponse, UrlParams>({
             query: arg => {
                 return { url: arg.endpoint, params: { ...arg }};
             },

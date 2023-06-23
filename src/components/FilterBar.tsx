@@ -1,4 +1,3 @@
-// FilterForm component
 import React from 'react';
 
 const FilterBar = ({ filters, onFilterChange }) => {
@@ -9,9 +8,6 @@ const FilterBar = ({ filters, onFilterChange }) => {
         dispatch(setNewFilters(event.data))
     };
 
-    // {
-    //     gender: 'Male'
-    // }
 
     return (
         <form>
